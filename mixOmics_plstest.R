@@ -65,11 +65,6 @@ u2=y1 %*% c2
 all.equal(as.vector(vx[,2]), as.vector(t2))
 all.equal(as.vector(vy[,2]), as.vector(u2))
 
-
-
-
-
-
 pred = predict(linn.pls, X)
 
 
